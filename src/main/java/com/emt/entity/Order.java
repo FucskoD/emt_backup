@@ -44,52 +44,117 @@ public class Order {
 		this.range = range;
 	}
 
+
+	public String getOrderId() {
+		return orderId;
+	}
+
+
 	public void setOrderId(String orderId) {
 		this.orderId = orderId;
 	}
+
+
+	public String getTypeId() {
+		return typeId;
+	}
+
 
 	public void setTypeId(String typeId) {
 		this.typeId = typeId;
 	}
 
+
+	public String getLocationId() {
+		return locationId;
+	}
+
+
 	public void setLocationId(String locationId) {
 		this.locationId = locationId;
 	}
+
+
+	public String getVolumeTotal() {
+		return volumeTotal;
+	}
+
 
 	public void setVolumeTotal(String volumeTotal) {
 		this.volumeTotal = volumeTotal;
 	}
 
+
+	public String getVolumeRemain() {
+		return volumeRemain;
+	}
+
+
 	public void setVolumeRemain(String volumeRemain) {
 		this.volumeRemain = volumeRemain;
 	}
+
+
+	public String getMinVolume() {
+		return minVolume;
+	}
+
 
 	public void setMinVolume(String minVolume) {
 		this.minVolume = minVolume;
 	}
 
+
+	public String getPrice() {
+		return price;
+	}
+
+
 	public void setPrice(String price) {
 		this.price = price;
 	}
+
+
+	public String getIsBuyOrder() {
+		return isBuyOrder;
+	}
+
 
 	public void setIsBuyOrder(String isBuyOrder) {
 		this.isBuyOrder = isBuyOrder;
 	}
 
+
+	public String getDuration() {
+		return duration;
+	}
+
+
 	public void setDuration(String duration) {
 		this.duration = duration;
 	}
 
+
+	public String getIssued() {
+		return issued;
+	}
+
+
 	public void setIssued(String issued) {
 		this.issued = issued;
 	}
-	
+
+
 	public String getRange() {
 		return range;
 	}
+
+
 	public void setRange(String range) {
 		this.range = range;
 	}
+
+
 
 	@Override
 	public String toString() {
